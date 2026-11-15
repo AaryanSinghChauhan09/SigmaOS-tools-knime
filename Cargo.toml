@@ -1,0 +1,8 @@
+[package]
+name = "SigmaOS-tools-knime"
+version = "0.1.0"
+edition = "2021"
+description = "KNIME modular analytical pipeline node engine"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
