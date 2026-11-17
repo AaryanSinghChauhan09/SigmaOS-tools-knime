@@ -3,7 +3,7 @@ name = "SigmaOS-tools-knime"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "tools-knime component"
+description = "tools knime component"
 upstream = []
 
 [contract]
