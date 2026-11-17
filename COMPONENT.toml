@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-tools-knime"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "tools knime component"
+description = "KNIME-style workflow pipeline engine with normalization and filter nodes"
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["data-pipeline", "workflow-engine", "knime-compatible"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+status = "Implemented"
+test_evidence = "cargo test --offline unit tests pass"
+next_milestone = "Node GUI editor, serialization, and dynamic loading"
